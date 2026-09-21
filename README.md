@@ -8,7 +8,21 @@
 
 它解决的不是“把 Excel 画成图”，而是先回答一个更关键的问题：**哪些产品真的属于你要研究的市场？**
 
-[查看完整 Skill](sellersprite-bi-market-research/SKILL.md) · [查看关键词与相关性方法](sellersprite-bi-market-research/references/discovery-and-relevance-workflow.md) · [查看 AI Voice Recorder 案例](sellersprite-bi-market-research/references/worked-example-ai-voice-recorder.md)
+[在线体验 AI Voice Recorder BI Dashboard](https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/) · [查看完整 Skill](sellersprite-bi-market-research/SKILL.md) · [查看关键词与相关性方法](sellersprite-bi-market-research/references/discovery-and-relevance-workflow.md) · [查看案例方法](sellersprite-bi-market-research/references/worked-example-ai-voice-recorder.md)
+
+## Live Demo：最终 BI 呈现效果
+
+[打开 AI Voice Recorder Amazon US 交互式 BI](https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/) · [查看或下载单文件 HTML](docs/index.html)
+
+Demo 是本次完整研究流程的实际输出，包含：
+
+- 核心直接市场与传统录音笔相邻市场分层。
+- 年度、YTD、同周期同比和月度趋势。
+- 父 ASIN 去重后的品牌销售额竞争与市场集中度。
+- 关键词证据、产品属性筛选、父体商品明细和排名动量。
+- 数据来源、范围、计算口径、冲突和缺失说明。
+
+这是基于指定关键词、竞品和详细导出构建的查询样本，不代表完整 `AI Voice Recorder` 类目 TAM。数据截止日为 `2026-09-21`，最后完整月份为 `2026-08`。Dashboard 为自包含静态 HTML，不需要 localhost 或后端服务。
 
 ## 它解决什么问题
 
@@ -246,6 +260,8 @@ python -m unittest discover -s sellersprite-bi-market-research/scripts -p "test_
 .
 |-- README.md
 |-- requirements.txt
+|-- docs/
+|   `-- index.html
 `-- sellersprite-bi-market-research/
     |-- SKILL.md
     |-- agents/openai.yaml
