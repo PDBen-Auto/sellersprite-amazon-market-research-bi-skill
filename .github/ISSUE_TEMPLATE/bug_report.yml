@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible export, scope, aggregation, or dashboard problem without sharing private data.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not post credentials, cookies, customer data, confidential ASIN lists, or private exports. Use synthetic or sanitized files.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment and version
+      placeholder: Windows 11, Python 3.12, v1.0.2
+    validations:
+      required: true

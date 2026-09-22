@@ -1,0 +1,20 @@
+name: Feature request
+description: Propose a public export adapter, scope rule, aggregation, or dashboard improvement.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Describe the request with public or synthetic data only. Requests for credentials, hidden tracking, or unsupported platform access are out of scope.
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true

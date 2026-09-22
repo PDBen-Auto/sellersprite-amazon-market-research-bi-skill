@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "SellerSprite Amazon Market Research BI Skill"
+message: "If this Skill supports your Amazon research, please cite the repository and release version."
+type: software
+authors:
+  - family-names: "PDBen-Auto"
+    given-names: "Publisher"
+repository-code: "https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill"
+url: "https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/"
+license: "LicenseRef-Source-Available"
+version: "1.0.2"
+date-released: "2026-09-22"
+keywords:
+  - SellerSprite
+  - Amazon market research
+  - ASIN research
+  - parent ASIN deduplication
+  - Amazon BI
