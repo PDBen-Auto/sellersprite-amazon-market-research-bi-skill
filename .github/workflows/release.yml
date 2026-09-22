@@ -1,0 +1,45 @@
+name: Publish installable skill release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies and test
+        run: |
+          python -m pip install -r requirements.txt
+          python -m unittest discover -s sellersprite-bi-market-research/scripts -p "test_*.py" -v
+      - name: Package installable skill
+        shell: bash
+        run: |
+          mkdir -p dist/sellersprite-bi-market-research
+          cp -r SKILL.md agents sellersprite-bi-market-research requirements.txt LICENSE .well-known PUBLISHER_PUBLIC_KEY.pem PUBLIC_MANIFEST.sha256 RELEASE_PROVENANCE.json RELEASE_PROVENANCE.sig dist/sellersprite-bi-market-research/
+          find dist -type d -name __pycache__ -prune -exec rm -rf {} +
+          find dist -type f -name '*.pyc' -delete
+          cd dist
+          zip -r sellersprite-amazon-market-research-bi-skill.zip sellersprite-bi-market-research
+          sha256sum sellersprite-amazon-market-research-bi-skill.zip > sellersprite-amazon-market-research-bi-skill.zip.sha256
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "${{ github.ref_name }}"
+          dist/sellersprite-amazon-market-research-bi-skill.zip
+          dist/sellersprite-amazon-market-research-bi-skill.zip.sha256
+          --repo "${{ github.repository }}"
+          --title "SellerSprite Amazon Market Research BI Skill ${{ github.ref_name }}"
+          --generate-notes

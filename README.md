@@ -1,5 +1,10 @@
 # SellerSprite Amazon Market Research BI Skill
 
+[![Release](https://img.shields.io/github/v/release/PDBen-Auto/sellersprite-amazon-market-research-bi-skill?display_name=tag&style=flat-square)](https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/releases/latest)
+[![Validation](https://img.shields.io/github/actions/workflow/status/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/validate.yml?branch=main&style=flat-square&label=validation)](https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/actions/workflows/validate.yml)
+[![skills.sh](https://skills.sh/b/PDBen-Auto/sellersprite-amazon-market-research-bi-skill)](https://skills.sh/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/sellersprite-bi-market-research)
+[![License](https://img.shields.io/badge/license-source--available-59636e?style=flat-square)](LICENSE)
+
 ## 从一个关键词和竞品 ASIN，找到真正相关的产品，并做成可审计的 Amazon 品类 BI
 
 一个面向 Amazon 选品、市场研究和竞品分析的 Codex Skill。它把 SellerSprite（卖家精灵）的关键词、竞品、标准导出和详细导出连接成一条完整工作流：
@@ -142,6 +147,14 @@ Marketplace: Amazon US
 
 ## 安装
 
+### 一条命令安装
+
+```bash
+npx skills add PDBen-Auto/sellersprite-amazon-market-research-bi-skill --skill sellersprite-bi-market-research
+```
+
+安装 CLI 会从仓库根目录发现并安装标准 Skill 包；如果你使用旧版手动方式，仍可复制 `sellersprite-bi-market-research/` 子目录。
+
 ### 方式一：Clone 后复制到 Codex Skills
 
 ```bash
@@ -282,3 +295,9 @@ SellerSprite, 卖家精灵, Amazon market research, Amazon product research, Ama
 ## Disclaimer
 
 This project is not affiliated with SellerSprite or Amazon. SellerSprite estimates should be treated as third-party market evidence, not Amazon settlement data. Users are responsible for lawful access to source data and compliance with platform terms.
+
+## Related PDBen-Auto Skills
+
+- [Amazon Review Intelligence](https://github.com/PDBen-Auto/amazon-review-intelligence-skill) — written-review collection, evidence delivery, and VOC analysis.
+- [Design Patent Search And Design Around](https://github.com/PDBen-Auto/design-patent-design-around-skill) — design-rights pre-screening and structurally distinct redesign planning.
+- [Amazon Product Decision Gateway](https://github.com/PDBen-Auto/amazon-product-decision-suite) — cross-functional product validation and Go/No-Go handoff.

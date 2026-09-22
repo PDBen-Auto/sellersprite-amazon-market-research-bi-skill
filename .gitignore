@@ -12,5 +12,8 @@ build/
 *.json
 *.html
 !sellersprite-bi-market-research/agents/openai.yaml
+!RELEASE_PROVENANCE.json
+!.well-known/
+!.well-known/skill-provenance.json
 !docs/
 !docs/index.html

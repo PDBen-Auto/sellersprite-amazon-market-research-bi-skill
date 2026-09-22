@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/sitemap.xml

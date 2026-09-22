@@ -1,0 +1,7 @@
+interface:
+  display_name: "SellerSprite Amazon Market Research BI"
+  short_description: "Find relevant ASINs and build auditable Amazon category BI"
+  default_prompt: "Use $sellersprite-bi-market-research to expand a seed keyword and competitor ASINs, filter relevant listings, deduplicate parent ASINs, and build an auditable Amazon BI dashboard from SellerSprite exports."
+
+policy:
+  allow_implicit_invocation: true
