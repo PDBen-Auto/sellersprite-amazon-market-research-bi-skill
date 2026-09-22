@@ -1,10 +1,10 @@
 {
-  "created_at_utc": "2026-09-22T08:35:22Z",
-  "manifest_sha256": "052a3c9982391fdf6105e12d9d8e841b4b16c4bcdab141ea841812418ce74dc1",
+  "created_at_utc": "2026-09-22T11:22:12Z",
+  "manifest_sha256": "a91884577f844e5246638fd835b3f7eb40da9af4e2f79cfd76d0d9959ab008e7",
   "origin_id": "a1b4f05a-3ca8-4a59-8b2c-76d3e4d5c5e5",
   "prompt_neutral": true,
   "publisher_public_key_sha256": "d64d7ebc963fdaa86a44573bd226e8bb135d9d95818c5f39df88e0a45e886596",
-  "release_version": "v1.0.2",
+  "release_version": "v1.0.3",
   "repository": "https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill",
   "schema_version": "1.0",
   "scope": "public-skill-package",
