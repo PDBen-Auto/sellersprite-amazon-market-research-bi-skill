@@ -6,6 +6,8 @@
 
 An installable Agent Skill for auditable Amazon market research from SellerSprite exports.
 
+![SellerSprite Amazon market research BI preview showing keyword scope, relevant parent ASINs, and auditable revenue segmentation](assets/github-social-preview.png)
+
 It connects:
 
 ```text

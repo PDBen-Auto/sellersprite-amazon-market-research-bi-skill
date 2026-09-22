@@ -17,6 +17,8 @@
 
 [在线体验 AI Voice Recorder BI Dashboard](https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/) · [查看完整 Skill](sellersprite-bi-market-research/SKILL.md) · [查看关键词与相关性方法](sellersprite-bi-market-research/references/discovery-and-relevance-workflow.md) · [查看案例方法](sellersprite-bi-market-research/references/worked-example-ai-voice-recorder.md)
 
+![SellerSprite Amazon market research BI preview showing keyword scope, relevant parent ASINs, and auditable revenue segmentation](assets/github-social-preview.png)
+
 ## Live Demo：最终 BI 呈现效果
 
 [打开 AI Voice Recorder Amazon US 交互式 BI](https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/) · [查看或下载单文件 HTML](docs/index.html)
