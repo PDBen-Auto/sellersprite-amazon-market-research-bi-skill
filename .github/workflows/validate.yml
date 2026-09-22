@@ -25,5 +25,7 @@ jobs:
         run: python -m unittest discover -s sellersprite-bi-market-research/scripts -p "test_*.py" -v
       - name: Compile scripts
         run: python -m compileall -q sellersprite-bi-market-research/scripts
+      - name: Smoke-test installable ZIP layout
+        run: python tests/test_install_smoke.py
       - name: Validate root skill metadata
         run: python -c "from pathlib import Path; t=Path('SKILL.md').read_text(); assert t.startswith('---'); assert '## Inputs' in t and '## Outputs' in t"
