@@ -155,6 +155,8 @@ npx skills add PDBen-Auto/sellersprite-amazon-market-research-bi-skill --skill s
 
 安装 CLI 会从仓库根目录发现并安装标准 Skill 包；如果你使用旧版手动方式，仍可复制 `sellersprite-bi-market-research/` 子目录。
 
+Release ZIP 采用扁平安装布局，解压后可以直接看到根目录 `SKILL.md`、`agents/` 和兼容的实现目录，不会再出现同名的外层/内层 Skill 文件夹。
+
 ### 方式一：Clone 后复制到 Codex Skills
 
 ```bash
