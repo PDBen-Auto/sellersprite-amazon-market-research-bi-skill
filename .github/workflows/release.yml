@@ -28,9 +28,20 @@ jobs:
         shell: bash
         run: |
           mkdir -p dist/sellersprite-bi-market-research
-          cp -r SKILL.md agents sellersprite-bi-market-research requirements.txt LICENSE .well-known PUBLISHER_PUBLIC_KEY.pem PUBLIC_MANIFEST.sha256 RELEASE_PROVENANCE.json RELEASE_PROVENANCE.sig dist/sellersprite-bi-market-research/
+          git archive --format=tar "${GITHUB_SHA}" | tar -x -C dist/sellersprite-bi-market-research
           find dist -type d -name __pycache__ -prune -exec rm -rf {} +
           find dist -type f -name '*.pyc' -delete
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path("dist/sellersprite-bi-market-research")
+          manifest = (root / "PUBLIC_MANIFEST.sha256").read_text(encoding="utf-8")
+          payload = json.loads((root / "RELEASE_PROVENANCE.json").read_text(encoding="utf-8"))
+          assert hashlib.sha256(manifest.encode()).hexdigest() == payload["manifest_sha256"]
+          for line in manifest.splitlines():
+              digest, relative = line.split("  ", 1)
+              assert hashlib.sha256((root / relative).read_bytes()).hexdigest() == digest, relative
+          PY
           cd dist/sellersprite-bi-market-research
           zip -r ../sellersprite-amazon-market-research-bi-skill.zip .
           cd ..
