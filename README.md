@@ -1,5 +1,7 @@
 # SellerSprite Amazon Market Research BI Skill
 
+[English README](README.en.md)
+
 [![Release](https://img.shields.io/github/v/release/PDBen-Auto/sellersprite-amazon-market-research-bi-skill?display_name=tag&style=flat-square)](https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/releases/latest)
 [![Validation](https://img.shields.io/github/actions/workflow/status/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/validate.yml?branch=main&style=flat-square&label=validation)](https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/actions/workflows/validate.yml)
 [![skills.sh](https://skills.sh/b/PDBen-Auto/sellersprite-amazon-market-research-bi-skill)](https://skills.sh/PDBen-Auto/sellersprite-amazon-market-research-bi-skill/sellersprite-bi-market-research)
