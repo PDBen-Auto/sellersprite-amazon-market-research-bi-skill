@@ -21,6 +21,10 @@
 
 ![SellerSprite Amazon market research BI preview showing keyword scope, relevant parent ASINs, and auditable revenue segmentation](assets/github-social-preview.png)
 
+## Start here if you need a product decision, not just a dashboard
+
+Use the [Amazon Product Research Agent Skills suite](https://github.com/PDBen-Auto/amazon-product-research-agent-skills) to route this market-boundary workflow together with review intelligence, design-risk, supplier, and Go/No-Go modules. This repository remains the focused SellerSprite/Amazon market-research BI module.
+
 ## Live Demo：最终 BI 呈现效果
 
 [打开 AI Voice Recorder Amazon US 交互式 BI](https://pdben-auto.github.io/sellersprite-amazon-market-research-bi-skill/) · [查看或下载单文件 HTML](docs/index.html)
