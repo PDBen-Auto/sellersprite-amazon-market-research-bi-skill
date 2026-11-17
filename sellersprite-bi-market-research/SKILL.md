@@ -197,3 +197,11 @@ python scripts/normalize_sellersprite_exports.py `
 - [Worked Example: AI Voice Recorder Market Discovery To BI](references/worked-example-ai-voice-recorder.md)
 - [SellerSprite Data Contract](references/data-contract.md)
 - [BI Dashboard Standard](references/dashboard-standard.md)
+
+<!-- skill-i18n:start -->
+## Output language and localized operating guides
+
+[简体中文](references/i18n/zh-CN.md) | [English](references/i18n/en.md) | [日本語](references/i18n/ja.md) | [한국어](references/i18n/ko.md) | [Deutsch](references/i18n/de.md) | [Français](references/i18n/fr.md) | [Español](references/i18n/es.md) | [Português](references/i18n/pt.md)
+
+Use the user's explicitly requested output language; otherwise follow the language of the request. Read only the corresponding localized guide when needed. Preserve the workflow, prerequisites, authorization gates, skill IDs, commands, schema keys, enum values, units, original evidence and any language-specific canonical fields. Do not infer marketplace, currency or jurisdiction from language. Localized guides summarize the operating contract; read the relevant canonical references for exact schemas, calculations and stage-specific procedures. Example interfaces, historical evidence and script diagnostics retain their original language unless separately adapted.
+<!-- skill-i18n:end -->

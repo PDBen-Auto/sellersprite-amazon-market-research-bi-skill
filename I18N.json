@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "locales": [
+    "zh-CN",
+    "en",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "scope": "localized-operating-guides-and-requested-assistant-output",
+  "referenceTranslations": "partial; technical references and example UIs retain original language",
+  "nativeSpeakerReview": false,
+  "baseCommit": "6d6bcf08d2e15acd4f9b6ca0b043e0c1687af238",
+  "repository": "PDBen-Auto/sellersprite-amazon-market-research-bi-skill",
+  "skills": [
+    {
+      "name": "sellersprite-bi-market-research",
+      "path": "SKILL.md",
+      "directory": ".",
+      "sourceSha256": "0469ef49160d8ae61fd2f2956c5c8933de7995b0fdef101a1861e638744f5f8a",
+      "guides": {
+        "zh-CN": "references/i18n/zh-CN.md",
+        "en": "references/i18n/en.md",
+        "ja": "references/i18n/ja.md",
+        "ko": "references/i18n/ko.md",
+        "de": "references/i18n/de.md",
+        "fr": "references/i18n/fr.md",
+        "es": "references/i18n/es.md",
+        "pt": "references/i18n/pt.md"
+      },
+      "updatedSha256": "6610debc5dc542868c3fae2fe6abc5e47f545e9fd3d2431c1b41b3814ae32ed8"
+    },
+    {
+      "name": "sellersprite-bi-market-research",
+      "path": "sellersprite-bi-market-research/SKILL.md",
+      "directory": "sellersprite-bi-market-research",
+      "sourceSha256": "14dff40356e1aa8ac87a9cf9b4ea0141a8a62f631183a40cc1c397a012e2ae58",
+      "guides": {
+        "zh-CN": "sellersprite-bi-market-research/references/i18n/zh-CN.md",
+        "en": "sellersprite-bi-market-research/references/i18n/en.md",
+        "ja": "sellersprite-bi-market-research/references/i18n/ja.md",
+        "ko": "sellersprite-bi-market-research/references/i18n/ko.md",
+        "de": "sellersprite-bi-market-research/references/i18n/de.md",
+        "fr": "sellersprite-bi-market-research/references/i18n/fr.md",
+        "es": "sellersprite-bi-market-research/references/i18n/es.md",
+        "pt": "sellersprite-bi-market-research/references/i18n/pt.md"
+      },
+      "updatedSha256": "225d2646f26473066495ad67583ccd15edb14c984a0a7fe3757076c73fa04236"
+    }
+  ],
+  "documents": {
+    "README.de.md": {
+      "sha256": "7f020c16661d01c27a8ca621c840aed595309b3599d8742eb548a2ca3edf7db5",
+      "size": 3125
+    },
+    "README.en.md": {
+      "sha256": "8a6a6aae91056d8fda88c160cfcdc276d7dbe1ea00932cbc8cbb5e5e3d3145cd",
+      "size": 8844
+    },
+    "README.es.md": {
+      "sha256": "186e755c630a28df6ae0d47fdad8b05bd319bf797acc8ffaba0d151efbd957be",
+      "size": 3007
+    },
+    "README.fr.md": {
+      "sha256": "5a741492938ebbcb432982a4afe2f2c24c84628eea64164d2e14db4fe304d2aa",
+      "size": 3183
+    },
+    "README.ja.md": {
+      "sha256": "ee6307fa1616d8b67aa09fb3e223e97b4a048426c568cd68da41339fd09913bb",
+      "size": 3114
+    },
+    "README.ko.md": {
+      "sha256": "c4b9c0cf18aeb60a5d77fc4573b5d542269f5e6f0039002ce9b189005e052e37",
+      "size": 3107
+    },
+    "README.md": {
+      "sha256": "7d9d28674e679d1857f2345d167cdbad566b36e012ae39d9ef6d5bc95843b240",
+      "size": 16572
+    },
+    "README.pt.md": {
+      "sha256": "c1a30b4cc0d665926b0b82bb0ea48f7dd018155add5270df063a31606d95434f",
+      "size": 3007
+    },
+    "README.zh-CN.md": {
+      "sha256": "a1f63d23975a41b8be3bf590d68c139f8992f063c8ab3b73bdda2a0d5a6054e2",
+      "size": 2585
+    },
+    "SKILL.md": {
+      "sha256": "6610debc5dc542868c3fae2fe6abc5e47f545e9fd3d2431c1b41b3814ae32ed8",
+      "size": 4930
+    },
+    "references/i18n/de.md": {
+      "sha256": "fdeb2fc6675601f9d4dc03a8ec0d9d597892528551bc0a6338f9afb8f2513bc2",
+      "size": 3091
+    },
+    "references/i18n/en.md": {
+      "sha256": "66a739b471477bd18a478fba36de936b690d1dfb781ffff8f5fd13270150d369",
+      "size": 3256
+    },
+    "references/i18n/es.md": {
+      "sha256": "655e3ade119c08698596d2b32aafb74f90d0ef22fea410d071cea5bb3b751fe5",
+      "size": 2912
+    },
+    "references/i18n/fr.md": {
+      "sha256": "67a755f48b68e1f57d4d5735521cb25039056cad2de818877c51df64f96a7ee1",
+      "size": 3140
+    },
+    "references/i18n/ja.md": {
+      "sha256": "dc463d6ff7fe3ba7e7f694dbfee494fbbb3852ff40544fdbe5f9f8a3674796e6",
+      "size": 3088
+    },
+    "references/i18n/ko.md": {
+      "sha256": "61e0b2c782adac345918e98a59a970d2df9203b2e62e46832c359a7bb262784c",
+      "size": 3059
+    },
+    "references/i18n/pt.md": {
+      "sha256": "ad9e53d31cae745524a991f72a4918b492f8693d49bdaa5606fff7a6b6b4cc45",
+      "size": 2915
+    },
+    "references/i18n/zh-CN.md": {
+      "sha256": "3a969089b3cac9c7c9d25b631ded00817acb498b2ac314f5c2f0af01197bf6c7",
+      "size": 2555
+    },
+    "sellersprite-bi-market-research/SKILL.md": {
+      "sha256": "225d2646f26473066495ad67583ccd15edb14c984a0a7fe3757076c73fa04236",
+      "size": 23160
+    },
+    "sellersprite-bi-market-research/references/i18n/de.md": {
+      "sha256": "fdeb2fc6675601f9d4dc03a8ec0d9d597892528551bc0a6338f9afb8f2513bc2",
+      "size": 3091
+    },
+    "sellersprite-bi-market-research/references/i18n/en.md": {
+      "sha256": "66a739b471477bd18a478fba36de936b690d1dfb781ffff8f5fd13270150d369",
+      "size": 3256
+    },
+    "sellersprite-bi-market-research/references/i18n/es.md": {
+      "sha256": "655e3ade119c08698596d2b32aafb74f90d0ef22fea410d071cea5bb3b751fe5",
+      "size": 2912
+    },
+    "sellersprite-bi-market-research/references/i18n/fr.md": {
+      "sha256": "67a755f48b68e1f57d4d5735521cb25039056cad2de818877c51df64f96a7ee1",
+      "size": 3140
+    },
+    "sellersprite-bi-market-research/references/i18n/ja.md": {
+      "sha256": "dc463d6ff7fe3ba7e7f694dbfee494fbbb3852ff40544fdbe5f9f8a3674796e6",
+      "size": 3088
+    },
+    "sellersprite-bi-market-research/references/i18n/ko.md": {
+      "sha256": "61e0b2c782adac345918e98a59a970d2df9203b2e62e46832c359a7bb262784c",
+      "size": 3059
+    },
+    "sellersprite-bi-market-research/references/i18n/pt.md": {
+      "sha256": "ad9e53d31cae745524a991f72a4918b492f8693d49bdaa5606fff7a6b6b4cc45",
+      "size": 2915
+    },
+    "sellersprite-bi-market-research/references/i18n/zh-CN.md": {
+      "sha256": "3a969089b3cac9c7c9d25b631ded00817acb498b2ac314f5c2f0af01197bf6c7",
+      "size": 2555
+    }
+  }
+}
